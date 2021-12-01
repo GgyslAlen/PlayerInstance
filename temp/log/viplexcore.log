@@ -1,0 +1,40 @@
+[2021-12-01 12:31:54.307843] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:init:92] DataManager::init begin
+[2021-12-01 12:31:54.308280] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:init:95] DataManager::init end
+[2021-12-01 12:31:54.308297] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2021-12-01 12:31:54.308300] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2021-12-01 12:31:54.312487] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:54.335964] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:54.335979] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:172] DataManager::getString begin
+[2021-12-01 12:31:54.336403] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
+[2021-12-01 12:31:54.336537] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:193] DataManager::getString end
+[2021-12-01 12:31:54.336826] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:54.337094] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
+[2021-12-01 12:31:54.355197] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:54.355233] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:172] DataManager::getString begin
+[2021-12-01 12:31:54.355575] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:193] DataManager::getString end
+[2021-12-01 12:31:54.355747] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:54.364871] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:54.364975] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=C:/Users/USER/IdeaProjects/PlayerInstance/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
+[2021-12-01 12:31:54.364980] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:143] viplexcore  init ok
+[2021-12-01 12:31:54.364983] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:54.365219] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
+[2021-12-01 12:31:54.365294] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpNodeServerRequest:43] httpNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/host.json
+[2021-12-01 12:31:54.365330] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpVnnoxNodeServerRequest:585] httpVnnoxNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/nodes.json
+[2021-12-01 12:31:54.365357] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: publicmodule,strSql=SELECT publicmodule FROM commonconfig
+[2021-12-01 12:31:54.365362] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:operator ():130] getBuryPoint() return true
+[2021-12-01 12:31:54.365494] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\burypoint.cpp:uploadInit:23] BuryPoint::uploadInit begin
+[2021-12-01 12:31:54.382027] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:54.848623] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcoreasync.cpp:nvSearchTerminalAsync:65] nvSearchTerminalAsync serchTerminal begin
+[2021-12-01 12:31:54.848700] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\udp\udphelper.cpp:serchTerminal:63] serchTerminal:41:56:4f:4e:ff:ff:ff:ff:55:88:81:00:00:00:00:00:00:00:00:00:00:00:8e:00
+[2021-12-01 12:31:54.849087] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\udp\udpsocket.cpp:sendData:65] send re s = 24,data = AVONˇˇˇˇUàÅ
+[2021-12-01 12:31:54.849112] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\udp\udphelper.cpp:serchTerminal:63] serchTerminal:41:56:4f:4e:ff:ff:ff:ff:55:88:81:00:00:00:00:00:00:00:00:00:00:00:8e:00
+[2021-12-01 12:31:54.849318] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\udp\udpsocket.cpp:sendData:65] send re s = 24,data = AVONˇˇˇˇUàÅ
+[2021-12-01 12:31:54.967297] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\burypoint.cpp:getOSSUploadBuryPointInfo:30] BuryPoint::getOSSUploadBuryPointInfo begin
+[2021-12-01 12:31:55.119060] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:55.119367] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: NODE_LIST_VNNOX,strSql=SELECT NODE_LIST_VNNOX FROM commonconfig
+[2021-12-01 12:31:55.143311] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:55.145318] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:55.145847] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: TIMING_SERVERS_VNNOX,strSql=SELECT TIMING_SERVERS_VNNOX FROM commonconfig
+[2021-12-01 12:31:55.151031] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 12:31:55.169831] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 12:31:55.170199] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: NODE_SERVERS_VNNOX,strSql=SELECT NODE_SERVERS_VNNOX FROM commonconfig
