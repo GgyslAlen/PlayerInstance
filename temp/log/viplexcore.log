@@ -38,3 +38,27 @@
 [2021-12-01 12:31:55.151031] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
 [2021-12-01 12:31:55.169831] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
 [2021-12-01 12:31:55.170199] error [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: NODE_SERVERS_VNNOX,strSql=SELECT NODE_SERVERS_VNNOX FROM commonconfig
+[2021-12-01 13:48:27.570211] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:init:92] DataManager::init begin
+[2021-12-01 13:48:27.570709] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:init:95] DataManager::init end
+[2021-12-01 13:48:27.570725] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2021-12-01 13:48:27.570727] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2021-12-01 13:48:27.574965] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 13:48:27.575514] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 13:48:27.575517] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:172] DataManager::getString begin
+[2021-12-01 13:48:27.575736] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:193] DataManager::getString end
+[2021-12-01 13:48:27.575741] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:172] DataManager::getString begin
+[2021-12-01 13:48:27.575940] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:getString:193] DataManager::getString end
+[2021-12-01 13:48:27.576101] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 13:48:27.576333] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 13:48:27.576369] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=C:/Users/USER/IdeaProjects/PlayerInstance/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
+[2021-12-01 13:48:27.576371] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:init:143] viplexcore  init ok
+[2021-12-01 13:48:27.576372] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 13:48:27.576554] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
+[2021-12-01 13:48:27.576589] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpNodeServerRequest:43] httpNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/host.json
+[2021-12-01 13:48:27.576591] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:167] DataManager::setString end
+[2021-12-01 13:48:27.576613] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\http\httpHelper.cpp:httpVnnoxNodeServerRequest:585] httpVnnoxNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/nodes.json
+[2021-12-01 13:48:27.576636] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\viplexcore.cpp:operator ():130] getBuryPoint() return true
+[2021-12-01 13:48:27.576641] debug [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcore\burypoint.cpp:uploadInit:23] BuryPoint::uploadInit begin
+[2021-12-01 13:48:28.296494] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 13:48:28.296516] info [F:\jenkins_slave\workspace\viplexcore\src\libs\viplexcommon\datamanager\datamanager.cpp:setString:119] DataManager::setString begin
+[2021-12-01 13:48:28.29791

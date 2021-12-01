@@ -20,7 +20,7 @@ public class PlayerModule {
     public static void testApi() throws InterruptedException
     {
         System.setProperty("jna.encoding", "UTF-8");
-        ViplexCore instance = (ViplexCore) Native.loadLibrary("E:\\vcore\\bin\\viplexcore",ViplexCore.class);
+        ViplexCore instance = (ViplexCore) Native.load("/home/ubuntu/PlayerInstance/lib/libviplexcore.so",ViplexCore.class);
         //当需要集成到项目中时，请修改上面加载库的位置为你下载的sdk库的绝对路径，windows下如：
         //ViplexCore instance = (ViplexCore) Native.loadLibrary("D:\\ViplexCore3.3.0.01_x64\\bin\\viplexcore.dll",ViplexCore.class);
 
